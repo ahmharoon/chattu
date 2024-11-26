@@ -144,4 +144,5 @@ io.on("connection", (socket) => {
 app.use(errorMiddleware);
 
 // Export server for Vercel
+export { envMode, adminSecretKey, userSocketIDs };
 export default server;
